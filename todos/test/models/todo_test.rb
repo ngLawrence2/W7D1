@@ -1,0 +1,17 @@
+# == Schema Information
+#
+# Table name: todos
+#
+#  id    :bigint(8)        not null, primary key
+#  title :string           not null
+#  body  :string           not null
+#  done  :boolean          default(FALSE), not null
+#
+
+require 'test_helper'
+
+class TodoTest < ActiveSupport::TestCase
+  # test "the truth" do
+  #   assert true
+  # end
+end
